@@ -1,0 +1,157 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+.body{
+    background-color: #F2DCE0;
+}
+
+.wrapper{
+    border-top: 2px solid #FFB2BB;
+    border-bottom:2px solid #FF5773;
+    margin-bottom: 4rem;
+} 
+
+.site_header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid #FF5773;
+    margin-bottom: 1rem;
+
+}
+
+.div4img{
+    flex-basis: 20%;
+    text-align: center;
+    margin:0;
+    padding-top: 2rem ;
+    text-align: right;
+    padding-right: 0.5rem;
+}
+
+
+.div4h1{
+    flex-basis: 45%;
+    margin: 0;
+    padding-top: 2.5rem;
+    margin-bottom: 0;
+    
+}
+
+nav{
+    flex-basis: 45%;
+    margin: 0;
+}
+
+.header_img{
+    border-radius: 50%;
+    /*border:2px solid red;*/
+}
+h1{
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+header p{
+    margin-top: 0;
+    padding-left: 2rem;
+}
+
+body{
+    background-color: #F9F9F9;
+    
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    flex-basis: 30%;
+    text-align: end;
+    list-style-type: none;
+    padding-right: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+nav{
+    font-size: 1.1rem;
+}
+
+nav a:hover:not(active){
+    color:#A67C87;
+}
+
+.active{
+    color: #FF5773;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.section_img{
+    padding: 0;
+    flex-basis: 35% ;
+    border-radius: 25px;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+
+}
+
+.section_article{
+    flex-basis: 50%;
+    text-align: center;
+    padding-top: 12rem;
+
+}
+
+
+/*.section_img{
+    float: left;
+    border-radius: 20%;
+    padding: 0;
+    margin: 0;
+    padding: 2rem;
+    background-color:transparent;
+}
+
+.section_img::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.section_article{
+    float: left;
+    text-align: center;
+}
+.section_article::after{
+    content: "";
+    clear: both;
+    display: table;
+}*/
+
+.h3_1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 2.7rem;
+
+}
+
